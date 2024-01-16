@@ -1,0 +1,50 @@
+/* Etudiant.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Couleur de fond de la page */
+    padding-top: 20px; /* Espace en haut de la page */
+  }
+  
+  .container {
+    width: 80%; /* Ajuster la largeur du conteneur selon vos besoins */
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #87CEEB; /* Bleu ciel */
+    color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Ajuster la hauteur de la cellule */
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Blanc pour les lignes paires */
+  }
+  
+  tr:hover {
+    background-color: #ADD8E6; /* Bleu clair au survol */
+  }
+  button {
+    background-color: #87CEEB;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8ab6e9;
+  }
+  

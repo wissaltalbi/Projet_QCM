@@ -1,0 +1,69 @@
+/* Quiz.css */
+
+body {
+    background-color: #ecf5ff; /* Bleu ciel */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-question-container {
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .quiz-question-container h2 {
+    color: #333; /* Couleur de texte pour le titre de la question */
+  }
+  
+  .quiz-static-answers {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-static-answers li {
+    margin: 10px 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Styles pour les options de réponse */
+  .quiz-static-answers label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f0f8ff; /* Bleu clair pour les options de réponse */
+    border: 1px solid #add8e6; /* Bordure légère */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quiz-static-answers label:hover {
+    background-color: #b0e0e6; /* Changement de couleur au survol */
+  }
+  /* Quiz.css */
+
+/* Ajoutez ces styles pour le bouton d'affichage de la note totale */
+.quiz-score-button {
+    background-color:#2792b6; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    font-size: 16px; /* Taille du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur au survol */
+    margin-top: 20px; /* Marge en haut pour l'espacement */
+  }
+  
+  .quiz-score-button:hover {
+    background-color:#add8e6; /* Changement de couleur au survol */
+  }
+  
+  
+  
+  
